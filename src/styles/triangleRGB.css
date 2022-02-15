@@ -1,0 +1,8 @@
+.triangle-shape {
+    width: 255px;
+    height: 255px;
+    background-color: rgb(0,0,0);
+
+    /* The points are: centered top, left bottom, right bottom */
+    clip-path: polygon(50% 0, 0 100%, 100% 100%);
+}
